@@ -6,7 +6,7 @@ interface IProps {
 }
 
 const Service: React.FunctionComponent<IProps> = ({ data }) => (
-  <div className="row" id="service">
+  <div className="row">
     <div className="col-lg-4 col-12">
       <div className="section-title mt--30 mt_md--5 mt_mobile--5 mb_mobile--10">
         <h2 className="title">Services</h2>

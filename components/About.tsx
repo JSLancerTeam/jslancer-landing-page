@@ -1,7 +1,7 @@
 import React from 'react';
 
 const About: React.FunctionComponent = () => (
-  <div className="about-wrapper" id="about">
+  <div className="about-wrapper">
     <div className="container">
       <div className="row row--35 align-items-center">
         <div className="col-lg-5 col-md-12">

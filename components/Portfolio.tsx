@@ -9,7 +9,7 @@ interface IProps {
 }
 
 const Portfolio: React.FunctionComponent<IProps> = ({ data }) => (
-  <div className="portfolio-wrapper" id="portfolio">
+  <div className="portfolio-wrapper">
     <div className="container">
       <div className="row">
         <div className="col-lg-6">

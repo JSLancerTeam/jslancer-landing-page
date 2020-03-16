@@ -7,7 +7,7 @@ interface IProps {
 }
 
 const Slider: React.FunctionComponent<IProps> = ({ data }) => (
-  <div className="slider-activation" id="home">
+  <div className="slider-activation">
     {/* Start Single Slide */}
     <div
       className="slide slide-style-1 slider-fixed--height d-flex align-items-center bg_image bg_image--1"

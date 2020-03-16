@@ -11,7 +11,7 @@ const TeamBlock: FunctionComponent<IProps> = ({ data }) => {
   return (
     <div className="row">
       {data.map((value, i) => (
-        <div className="col-lg-3 col-md-6 col-sm-6 col-12" key={i}>
+        <div className="col-lg-4 col-md-6 col-sm-6 col-12" key={i}>
           <div className="team-static">
             <div className="thumbnail">
               <img

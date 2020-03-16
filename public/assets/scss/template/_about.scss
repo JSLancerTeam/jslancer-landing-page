@@ -1,5 +1,5 @@
 /*====================
-    About Area 
+    About Area
 ======================*/
 
 .rn-finding-us-area {
@@ -40,7 +40,7 @@
                 z-index: 2;
                 width: 800px;
                 border-radius: 10px;
-                
+
                 @media #{$lg-layout} {
                     padding: 60px 50px;
                     width: 100%;
@@ -87,7 +87,7 @@
             top: 0;
             right: 0;
             height: 100%;
-            
+
             @media #{$lg-layout} {
                 position: static;
                 height: 100%;
@@ -153,7 +153,7 @@
         z-index: 2;
         img{
             border-radius: 8px;
-           
+
         }
     }
 }
@@ -174,7 +174,7 @@
             margin-top: 0;
         }
         @media #{$laptop-device} {
-            margin-top: -89px;
+            margin-top: 134px;
         }
         @media #{$md-layout} {
             margin-top: 0;

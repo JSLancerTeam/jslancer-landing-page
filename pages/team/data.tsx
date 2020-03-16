@@ -16,10 +16,10 @@ export interface IData {
 
 const data = [
   {
-    images: '01',
-    title: 'Jone Due',
-    href: 'jone-due',
-    designation: 'Sr. Web Developer',
+    images: 'david-tran',
+    title: 'David Tran',
+    href: '#',
+    designation: 'Lead developer',
     socialNetwork: [
       {
         icon: <FaFacebookF />,
@@ -36,10 +36,10 @@ const data = [
     ]
   },
   {
-    images: '02',
-    title: 'Joynab Khatun',
-    href: 'joynab-khatun',
-    designation: 'Front-end Engineer',
+    images: 'leo-phan',
+    title: 'Leo Phan',
+    href: '#',
+    designation: 'Full-stack developer',
     socialNetwork: [
       {
         icon: <FaFacebookF />,
@@ -52,10 +52,10 @@ const data = [
     ]
   },
   {
-    images: '03',
-    title: 'John Dou',
-    href: 'john-dou',
-    designation: 'Sr. Graphic Designer',
+    images: 'tony-nguyen',
+    title: 'Tony Nguyen',
+    href: '#',
+    designation: 'Frontend Developer',
     socialNetwork: [
       {
         icon: <FaFacebookF />,
@@ -71,26 +71,6 @@ const data = [
       }
     ]
   },
-  {
-    images: '04',
-    title: 'Jone Due',
-    href: 'jone-due',
-    designation: 'Sr. Web Developer',
-    socialNetwork: [
-      {
-        icon: <FaFacebookF />,
-        url: '#'
-      },
-      {
-        icon: <FaLinkedinIn />,
-        url: '#'
-      },
-      {
-        icon: <FaTwitter />,
-        url: '#'
-      }
-    ]
-  }
 ];
 
 export default data;

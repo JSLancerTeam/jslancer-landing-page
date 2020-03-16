@@ -42,12 +42,13 @@ const Header: React.FunctionComponent = () => {
             <a href="/">
               <img
                 className="logo-1"
-                src="/assets/images/logo/logo-light.png"
+                src="/assets/images/logo/js-lancer-logo6.png"
                 alt="Logo Images"
+                width="200"
               />
               <img
                 className="logo-2"
-                src="/assets/images/logo/logo-all-dark.png"
+                src="/assets/images/logo/jslancer.png"
                 alt="Logo Images"
               />
             </a>

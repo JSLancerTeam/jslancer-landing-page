@@ -18,8 +18,10 @@ const Slider: React.FunctionComponent<IProps> = ({ data }) => (
           <div className="col-lg-12">
             <div className="inner">
               <h1 className="title theme-gradient">
-                JS lancer <br /> team{' '}
+                JSLancer
+                <p>Mobile and web development team</p>
               </h1>
+
             </div>
           </div>
         </div>

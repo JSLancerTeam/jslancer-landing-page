@@ -18,45 +18,18 @@ const AboutPage: NextPage = () => {
                 <div className="thumbnail">
                   <img
                     className="w-100"
-                    src="/assets/images/about/about-3.jpg"
-                    alt="About Images"
+                    src="/assets/images/team.jpg"
+                    alt="JSLancer team"
                   />
                 </div>
               </div>
               <div className="col-lg-7">
                 <div className="about-inner inner">
                   <div className="section-title">
-                    <h2 className="title">About</h2>
+                    <h2 className="title">About US</h2>
                     <p className="description">
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority have suffered alteration in
-                      some form, by injected humour, or randomised words which
-                      dont look even slightly believable. If you are going to
-                      use a passage of Lorem Ipsum Ipsum available, but the
-                      majority have suffered alteration in some form, by
-                      injected humour, or randomised words which dont look even
-                      slightly believable. If you are going.
+                      We are a web and mobile development team from Vietnam. We focus on develop rich interactive application with React and React Native. Our team consist of three members.
                     </p>
-                  </div>
-                  <div className="row mt--30">
-                    <div className="col-lg-6 col-md-12 col-sm-12 col-12">
-                      <div className="about-us-list">
-                        <h3 className="title">Who we are</h3>
-                        <p>
-                          There are many vtions of passages of Lorem Ipsum
-                          available, but the majority have suffered.
-                        </p>
-                      </div>
-                    </div>
-                    <div className="col-lg-6 col-md-12 col-sm-12 col-12">
-                      <div className="about-us-list">
-                        <h3 className="title">Who we are</h3>
-                        <p>
-                          There are many vtions of passages of Lorem Ipsum
-                          available, but the majority have suffered.
-                        </p>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -100,7 +73,7 @@ const AboutPage: NextPage = () => {
           <div className="thumbnail">
             <div className="image">
               <img
-                src="/assets/images/about/finding-us-01.png"
+                src="/assets/images/find-our-works.jpg"
                 alt="Finding Images"
               />
             </div>

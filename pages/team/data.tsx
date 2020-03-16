@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebookF, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
+import { FaTwitter, FaGithub } from 'react-icons/fa';
 
 interface ISocialNetwork {
   icon: JSX.Element;
@@ -22,16 +22,12 @@ const data = [
     designation: 'Lead developer',
     socialNetwork: [
       {
-        icon: <FaFacebookF />,
-        url: '#'
-      },
-      {
-        icon: <FaLinkedinIn />,
-        url: '#'
+        icon: <FaGithub />,
+        url: 'https://github.com/davidtran'
       },
       {
         icon: <FaTwitter />,
-        url: '#'
+        url: 'https://twitter.com/davidtranwd'
       }
     ]
   },
@@ -42,12 +38,8 @@ const data = [
     designation: 'Full-stack developer',
     socialNetwork: [
       {
-        icon: <FaFacebookF />,
-        url: '#'
-      },
-      {
-        icon: <FaLinkedinIn />,
-        url: '#'
+        icon: <FaGithub />,
+        url: 'https://github.com/nhuthuy212507'
       }
     ]
   },
@@ -58,19 +50,11 @@ const data = [
     designation: 'Frontend Developer',
     socialNetwork: [
       {
-        icon: <FaFacebookF />,
-        url: '#'
-      },
-      {
-        icon: <FaLinkedinIn />,
-        url: '#'
-      },
-      {
-        icon: <FaTwitter />,
-        url: '#'
+        icon: <FaGithub />,
+        url: 'https://github.com/nhattruongniit'
       }
     ]
-  },
+  }
 ];
 
 export default data;

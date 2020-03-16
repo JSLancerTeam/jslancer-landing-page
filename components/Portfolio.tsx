@@ -16,8 +16,7 @@ const Portfolio: React.FunctionComponent<IProps> = ({ data }) => (
           <div className="section-title">
             <h2>Portfolio</h2>
             <p>
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration.
+              These are some products that we have developed for our customers
             </p>
           </div>
         </div>

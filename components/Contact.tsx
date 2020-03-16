@@ -8,8 +8,7 @@ const Contact: React.FunctionComponent = () => (
           <div className="section-title text-left mb--50">
             <h2 className="title">Contact Us.</h2>
             <p className="description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Architecto cupiditate aperiam neque.
+
             </p>
           </div>
           <div className="form-wrapper">
@@ -65,7 +64,7 @@ const Contact: React.FunctionComponent = () => (
         </div>
         <div className="col-lg-6 order-1 order-lg-2">
           <div className="thumbnail mb_md--30 mb_sm--30">
-            <img src="/assets/images/about/about-6.jpg" alt="trydo" />
+            <img src="/assets/images/contact-us.jpg" alt="jslancer" />
           </div>
         </div>
       </div>

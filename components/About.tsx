@@ -19,29 +19,23 @@ const About: React.FunctionComponent = () => (
             <div className="section-title">
               <h2 className="title">About</h2>
               <p className="description">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form, by
-                injected humour, or randomised words which dont look even
-                slightly believable. If you are going to use a passage of Lorem
-                Ipsum,
+              We are a web and mobile development team from Vietnam. We focus on develop rich interactive application with React and React Native. Our team consist of three members.
               </p>
             </div>
             <div className="row mt--30 mt_sm--10">
               <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                 <div className="about-us-list">
-                  <h3 className="title">Who we are</h3>
+                  <h3 className="title">High technical skills</h3>
                   <p>
-                    There are many vtions of passages of Lorem Ipsum available,
-                    but the majority have suffered.
+                    Our team consists of senior developers who have vast experience with React and React Native. Our technical skill allow us to tackle difficult challenge and bring out the best solution for your product.
                   </p>
                 </div>
               </div>
               <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                 <div className="about-us-list">
-                  <h3 className="title">Who we are</h3>
+                  <h3 className="title">Customer first</h3>
                   <p>
-                    There are many vtions of passages of Lorem Ipsum available,
-                    but the majority have suffered.
+                    In order to be successful, we need to understand customer's vision and goal. So we take a lot of time to understand our customer and their vision.
                   </p>
                 </div>
               </div>

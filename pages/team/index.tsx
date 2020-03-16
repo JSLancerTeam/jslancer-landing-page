@@ -20,9 +20,7 @@ const TeamPage: NextPage = () => {
                   <div className="section-title text-center mb--30">
                     <h2>Our Skilled Team</h2>
                     <p>
-                      There are many variations of passages of Lorem Ipsum
-                      available, <br /> but the majority have suffered
-                      alteration.
+
                     </p>
                   </div>
                 </div>

@@ -34,7 +34,7 @@ export const slickDot = {
 
 export const portfolioSlick2 = {
   infinite: true,
-  slidesToShow: 5,
+  slidesToShow: 4,
   slidesToScroll: 1,
   dots: true,
   arrows: true,

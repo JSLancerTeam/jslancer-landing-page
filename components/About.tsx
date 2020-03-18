@@ -19,7 +19,9 @@ const About: React.FunctionComponent = () => (
             <div className="section-title">
               <h2 className="title">About</h2>
               <p className="description">
-              We are a web and mobile development team from Vietnam. We focus on develop rich interactive application with React and React Native. Our team consist of three members.
+                We are a web and mobile development team from Vietnam. We focus
+                on develop rich interactive application with React and React
+                Native. Our team consist of three members.
               </p>
             </div>
             <div className="row mt--30 mt_sm--10">
@@ -27,7 +29,10 @@ const About: React.FunctionComponent = () => (
                 <div className="about-us-list">
                   <h3 className="title">High technical skills</h3>
                   <p>
-                    Our team consists of senior developers who have vast experience with React and React Native. Our technical skill allow us to tackle difficult challenge and bring out the best solution for your product.
+                    Our team consists of senior developers who have vast
+                    experience with React and React Native. Our technical skill
+                    allow us to tackle difficult challenge and bring out the
+                    best solution for your product.
                   </p>
                 </div>
               </div>
@@ -35,7 +40,9 @@ const About: React.FunctionComponent = () => (
                 <div className="about-us-list">
                   <h3 className="title">Customer first</h3>
                   <p>
-                    In order to be successful, we need to understand customer's vision and goal. So we take a lot of time to understand our customer and their vision.
+                    In order to be successful, we need to understand customer's
+                    vision and goal. So we take a lot of time to understand our
+                    customer and their vision.
                   </p>
                 </div>
               </div>

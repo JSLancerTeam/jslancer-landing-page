@@ -5,6 +5,10 @@
 
 .portfolio-thumb-inner {
     .thumb {
+        img {
+            width: 100%;
+        }
+        
         position: relative;
         .video-popup {
             position: absolute;
@@ -128,6 +132,7 @@
     .thumb{
         a{
             img{
+                height: 300px;
                 width: 100%;
             }
         }

@@ -32,7 +32,6 @@ const Portfolio: React.FunctionComponent<IProps> = ({ data }) => (
             </div>
             <div className="content">
               <div className="inner">
-                <p>{value.category}</p>
                 <h4>
                   <Link
                     href="/portfolio/[detail]"

@@ -28,7 +28,9 @@ const AboutPage: NextPage = () => {
                   <div className="section-title">
                     <h2 className="title">About US</h2>
                     <p className="description">
-                      We are a web and mobile development team from Vietnam. We focus on develop rich interactive application with React and React Native. Our team consist of three members.
+                      We are a web and mobile development team from Vietnam. We
+                      focus on develop rich interactive application with React
+                      and React Native. Our team consist of three members.
                     </p>
                   </div>
                 </div>

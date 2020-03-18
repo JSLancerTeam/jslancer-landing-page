@@ -19,15 +19,17 @@ const PortfolioPage: NextPage = () => {
                 <div className="section-title text-center service-style--3 mb--30">
                   <h2 className="title">All Works</h2>
                   <p>
-                    There are many variations of passages of Lorem Ipsum
-                    available, but the majority have suffered alteration.
+                    We have started working with Javascript since 2014. Since
+                    that time, We have created countless successful web-app for
+                    my clients. We are a full-stack web team, it's mean that we
+                    can work on both frontend and backend.
                   </p>
                 </div>
               </div>
             </div>
             <div className="row">
               {data.map((value, index) => (
-                <div className="col-lg-4 col-md-6 col-sm-6 col-12" key={index}>
+                <div className="col-lg-6 col-md-6 col-sm-12 col-12" key={index}>
                   <div className="portfolio text-left mt--40">
                     <div className="thumbnail-inner">
                       <div className={`thumbnail ${value.image}`}></div>
@@ -35,7 +37,6 @@ const PortfolioPage: NextPage = () => {
                     </div>
                     <div className="content">
                       <div className="inner">
-                        <p>{value.category}</p>
                         <h4>
                           <Link
                             href="/portfolio/[detail]"

@@ -4,19 +4,20 @@ import VisibilitySensor from 'react-visibility-sensor';
 
 const Data = [
   {
-    countNum: 199,
-    countTitle:
-      'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those.'
+    countNum: 2015,
+    countTitle: `
+      Started from 2015, we have a worked with countless customers from United State, England, Switzerland and Australia. Our mainstack is React, React Native, NodeJS and MongoDB. It's the reason why we call ourselves JSLancer.
+    `
   },
   {
-    countNum: 575,
+    countNum: 20,
     countTitle:
-      'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those.'
+      `This is the number of projects which we have completed. We work closely with you to understand what you need and provide the best solution`
   },
   {
-    countNum: 69,
+    countNum: 10,
     countTitle:
-      'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those.'
+      'This is the number of open source projects that we have contributed.'
   }
 ];
 

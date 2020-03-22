@@ -59,7 +59,6 @@ const Header: React.FunctionComponent = () => {
             <ul className="mainmenu">
               <ActiveLink href="/" title="Home" />
               <ActiveLink href="/about" title="About" />
-              <ActiveLink href="/service" title="Service" />
               <ActiveLink href="/portfolio" title="Portfolio" />
               <ActiveLink href="/team" title="Team" />
               <ActiveLink href="/contact" title="Contact" />

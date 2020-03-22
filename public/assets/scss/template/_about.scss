@@ -148,6 +148,8 @@
 }
 
 .about-wrapper {
+    padding-top: 40px;
+
     .thumbnail {
         position: relative;
         z-index: 2;
@@ -168,21 +170,6 @@
     @media #{$sm-layout} {
         padding-top: 60px;
     }
-    .thumbnail {
-        margin-top: -130px;
-        @media #{$lg-layout} {
-            margin-top: 0;
-        }
-        @media #{$laptop-device} {
-            margin-top: 134px;
-        }
-        @media #{$md-layout} {
-            margin-top: 0;
-        }
-        @media #{$sm-layout} {
-            margin-top: 0;
-        }
-    }
 }
 
 .about-us-list{
@@ -191,7 +178,6 @@
         &.title{
             font-size: 30px;
             @extend %fontWeight500;
-            margin-bottom: 20px;
             @media #{$sm-layout} {
                 font-size: 26px;
                 margin-bottom: 8px;

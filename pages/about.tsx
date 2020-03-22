@@ -13,7 +13,7 @@ const AboutPage: NextPage = () => {
       <div className="rn-about-area ptb--120 bg_color--1">
         <div className="rn-about-wrapper">
           <div className="container">
-            <div className="row row--35 align-items-center">
+            <div className="row row--35">
               <div className="col-lg-5">
                 <div className="thumbnail">
                   <img
@@ -61,14 +61,10 @@ const AboutPage: NextPage = () => {
         <div className="inner">
           <div className="content-wrapper">
             <div className="content">
-              <h4 className="theme-gradient">Find Your Work Now</h4>
-              <p>
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that.
-              </p>
-              <a className="rn-btn btn-white" href="/about">
-                Get Started
+              <h4 className="theme-gradient">Find out more</h4>
+              <p>We offer 1-hour of free consultant. Let's talk about your project and find out more about our team.</p>
+              <a className="rn-btn btn-white" href="https://calendly.com/jslancer-contact-us/60min">
+                Schedule a meeting
               </a>
             </div>
           </div>

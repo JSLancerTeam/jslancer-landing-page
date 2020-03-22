@@ -1,14 +1,13 @@
 /*===================
-    Section Title 
+    Section Title
 ====================*/
 
 .section-title {
-    margin-top: -20px;
     h2{
         &.title{
             font-size: 60px;
             margin-bottom: 8px;
-            
+
             @media #{$lg-layout} {
                 font-size: 50px;
             }
@@ -31,7 +30,7 @@
         }
         br {
             @media #{$sm-layout} {
-                display: none;    
+                display: none;
             }
         }
     }
@@ -39,7 +38,7 @@
     h3 {
         font-size: 36px;
         line-height: 26px;
-        
+
         @media #{$sm-layout} {
             font-size: 26px;
             margin-bottom: 8px;

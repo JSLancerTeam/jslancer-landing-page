@@ -8,7 +8,7 @@ import Breadcrumb from '../components/common/Breadcrumb';
 
 const ContactPage: NextPage = () => {
   return (
-    <Layout title="Contact Page">
+    <Layout title="JSLancer - Contact Us">
       <Breadcrumb title="Contact Us" />
 
       <div className="rn-contact-top-area ptb--120 bg_color--5">

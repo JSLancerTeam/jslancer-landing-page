@@ -1,42 +1,46 @@
 import * as React from 'react';
-import { FiCast, FiLayers, FiUsers, FiMonitor } from 'react-icons/fi';
+import { FiLayers, FiUsers, FiPhone } from 'react-icons/fi';
 
 export interface IData {
   icon: JSX.Element;
   title: string;
   href: string;
-  description: string;
+  description: string | JSX.Element;
 }
 
 const data = [
   {
-    icon: <FiCast />,
-    title: 'Business Stratagy',
-    href: 'business-stratagy',
+    icon: <FiUsers />,
+    title: 'Technical Consultant',
+    href: 'techical-consultant',
     description:
-      'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+      'We will schedule a meeting to help you troubleshoot the issue in your project.'
   },
   {
     icon: <FiLayers />,
-    title: 'Website Development',
-    href: 'website-development',
-    description:
-      'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+    title: 'Code Review',
+    href: 'code-review',
+    description: (
+      <div>
+        <p>
+        We will review your codebase and do a lot of assessments. The accessments include:
+        </p>
+        <ul>
+          <li>Application performance</li>
+          <li>SEO</li>
+          <li>Project structure</li>
+          <li>Code cleaness</li>
+        </ul>
+      </div>
+    )
   },
   {
-    icon: <FiUsers />,
-    title: 'Marketing & Reporting',
-    href: 'marketing-and-reporting',
+    icon: <FiPhone />,
+    title: 'Web & Mobile Development',
+    href: 'web-mobile-development',
     description:
-      'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+      'We will work closely with you to understand the requirements for your next project. Our working process and high skill team ensure that the final results will not only satisfy your requirements but also meet the industry technical standards.'
   },
-  {
-    icon: <FiMonitor />,
-    title: 'Mobile App Development',
-    href: 'mobile-app-development',
-    description:
-      'I throw myself down among the tall grass by the stream as I lie close to the earth.'
-  }
 ];
 
 export default data;

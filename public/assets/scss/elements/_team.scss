@@ -1,5 +1,5 @@
 /*------------------------
-    Team Styles 
+    Team Styles
 ----------------------*/
 
 .team {
@@ -94,7 +94,7 @@
 
                     }
                 }
-                
+
             }
         }
     }
@@ -148,7 +148,7 @@
                     opacity: 1;
                     visibility: visible;
                     transform: translateY(0);
-                    
+
                     &:nth-child(1){
                         -webkit-transition-delay: .07692s;
                         transition-delay: .07692s;
@@ -187,10 +187,11 @@
 
 
 /*-------------------
-    Team Static  
+    Team Static
 ---------------------*/
 
 .team-static{
+    margin-bottom: 20px;
     .inner {
         padding-top: 17px;
         .content {
@@ -220,7 +221,7 @@
 
 
 /*----------------------
-    Social Share 
+    Social Share
 ------------------------*/
 ul {
     &.social-transparent {

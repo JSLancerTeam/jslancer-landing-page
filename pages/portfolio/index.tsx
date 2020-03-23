@@ -8,7 +8,7 @@ import Breadcrumb from '../../components/common/Breadcrumb';
 
 const PortfolioPage: NextPage = () => {
   return (
-    <Layout title="Portfolio Page">
+    <Layout title="JSLancer - Portfolio">
       <Breadcrumb title="Portfolio" />
       {/* Start Portfolio Area */}
       <div className="portfolio-area ptb--120 bg_color--1">

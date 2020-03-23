@@ -27,22 +27,22 @@ const About: React.FunctionComponent = () => (
             <div className="row mt--30 mt_sm--10">
               <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                 <div className="about-us-list">
+                  <h3 className="title">Customer first</h3>
+                  <p>
+                    In order to be successful, we need to understand customer's
+                    vision and goal. So we take a lot of time to understand our
+                    customer and their vision.
+                  </p>
+                </div>
+              </div>
+              <div className="col-lg-6 col-md-12 col-sm-12 col-12">
+                <div className="about-us-list">
                   <h3 className="title">High technical skills</h3>
                   <p>
                     Our team consists of senior developers who have vast
                     experience with React and React Native. Our technical skill
                     allow us to tackle difficult challenge and bring out the
                     best solution for your product.
-                  </p>
-                </div>
-              </div>
-              <div className="col-lg-6 col-md-12 col-sm-12 col-12">
-                <div className="about-us-list">
-                  <h3 className="title">Customer first</h3>
-                  <p>
-                    In order to be successful, we need to understand customer's
-                    vision and goal. So we take a lot of time to understand our
-                    customer and their vision.
                   </p>
                 </div>
               </div>

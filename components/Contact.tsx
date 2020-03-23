@@ -6,13 +6,22 @@ const Contact: React.FunctionComponent = () => (
       <div className="row row--35 align-items-start">
         <div className="col-lg-6 order-2 order-lg-1">
           <div className="section-title text-left mb--50">
-            <h2 className="title">Contact Us.</h2>
+            <h2 className="title">Find out more</h2>
             <p className="description">
-
+              We provide one hour of free consultant. Click on the button beblow
+              to schedule a meeting with us. If you have some question and you
+              want to answer quickly, feel free to send me an email at{' '}
+              <a href="mailto:david@jslancer.com">david@jslancer.com</a>
             </p>
+            <a
+              className="rn-btn"
+              href="https://calendly.com/jslancer-contact-us/60min"
+            >
+              Schedule a meeting
+            </a>
           </div>
           <div className="form-wrapper">
-            <form>
+            {/* <form>
               <label htmlFor="item01">
                 <input
                   type="text"
@@ -59,7 +68,7 @@ const Contact: React.FunctionComponent = () => (
               >
                 Submit
               </button>
-            </form>
+            </form> */}
           </div>
         </div>
         <div className="col-lg-6 order-1 order-lg-2">

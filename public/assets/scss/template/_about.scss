@@ -148,7 +148,11 @@
 }
 
 .about-wrapper {
-    padding-top: 40px;
+    padding-top: 80px;
+
+    @media #{$sm-layout} {
+        padding-top: 0px;
+    }
 
     .thumbnail {
         position: relative;

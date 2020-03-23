@@ -7,7 +7,7 @@ import Counter from '../components/Counter';
 
 const AboutPage: NextPage = () => {
   return (
-    <Layout title="About Page">
+    <Layout title="JSLancer - About us">
       <Breadcrumb title="About" />
       {/* Start About Area  */}
       <div className="rn-about-area ptb--120 bg_color--1">

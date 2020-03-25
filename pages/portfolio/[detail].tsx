@@ -91,7 +91,7 @@ const PortfolioDetailPage: NextPage = () => {
                       </div>
                     </div>
                     <div className="portfolio-thumb-inner">
-                      {Array.from(Array(infoDetail?.numberImage).keys()).map(
+                      {infoDetail?.numberImage && Array.from(Array(infoDetail?.numberImage).keys()).map(
                         index => (
                           <div
                             className={`thumb mb--30 ${

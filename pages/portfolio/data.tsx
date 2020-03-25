@@ -8,7 +8,8 @@ export interface IData {
   description: JSX.Element;
   aboutClient?: JSX.Element;
   technology?: JSX.Element;
-  numberImage: number;
+  numberImage?: number;
+  images?: Array<string>;
 }
 
 const data = [
@@ -18,25 +19,33 @@ const data = [
     title: 'Pullr',
     subtitle: 'Pullr is a fund-raising platform for video game streamer.',
     description: (
-      <p>
-        This platform helps streamers enhance their streaming video by various
-        widgets from Pullr. Streamers also receive donate from viewers viaPullr
-        payment system.
-      </p>
+      <>
+        <p>
+          Started in 2014, Pullr is a fund-raising platform for video game
+          streamer. Using Pullr, streamer can create various kind of widgets and
+          embed into their stream. Viewer can interact with these widgets and
+          give donation for streamer
+        </p>
+        <p>
+          More than that, streamer can create campaign to raise fund for
+          charity.
+        </p>
+      </>
     ),
     aboutClient: (
-      <div>
-        <span>Company: Pullr Inc</span>
-        <span>Owner: Noah Ridley</span>
-        <span>Location: United State</span>
-      </div>
+      <ul>
+        <li>Company: Pullr Inc</li>
+        <li>Owner: Noah Ridley</li>
+        <li>Location: United State</li>
+      </ul>
     ),
     technology: (
-      <div>
-        <span>AngularJS</span>
-        <span>LESS</span>
-        <span>Gulp</span>
-      </div>
+      <ul>
+        <li>AngularJS</li>
+        <li>LESS</li>
+        <li>Gulp</li>
+        <li>Laravel</li>
+      </ul>
     ),
     numberImage: 3
   },
@@ -49,9 +58,9 @@ const data = [
     description: (
       <>
         <p>
-          Crystal dashboard is a minimal, beautiful, multi-purpose that you can
-          easily to modify to use any admin dashboard project. It's complete
-          free.
+          Crystal dashboard is a minimal, beautiful, multi-purpose ReactJS that
+          you can easily to modify to use any admin dashboard project. It's
+          complete free.
         </p>
         <p>
           You can download at here:{' '}
@@ -88,17 +97,17 @@ const data = [
       </p>
     ),
     aboutClient: (
-      <div>
-        <span>Client name: Damon Cleveland</span>
-        <span>Location: United State</span>
-      </div>
+      <ul>
+        <li>Client name: Damon Cleveland</li>
+        <li>Location: United State</li>
+      </ul>
     ),
     technology: (
-      <div>
-        <span>Angular 2</span>
-        <span>Webpack</span>
-        <span>SASS</span>
-      </div>
+      <ul>
+        <li>Angular 2</li>
+        <li>Webpack</li>
+        <li>SASS</li>
+      </ul>
     ),
     numberImage: 2
   },
@@ -109,25 +118,26 @@ const data = [
     subtitle: '1ClickTrips is tool to search, plan and manage your trips.',
     description: (
       <p>
-        Just enter your appointment data and get the best itinerary options
-        including car, public transport, flight and accommodation in seconds.
+        1Click is a trip search engine. User just needs toenter your appointment
+        data and get the best itinerary options including car, public transport,
+        flight and accommodation in seconds.
       </p>
     ),
     aboutClient: (
-      <div>
-        <span>Client name: Efexcon</span>
-        <span>Location: Zug, Switzerland</span>
-      </div>
+      <ul>
+        <li>Client name: Efexcon</li>
+        <li>Location: Zug, Switzerland</li>
+      </ul>
     ),
     technology: (
-      <div>
-        <span>AngularJS</span>
-        <span>Webpack</span>
-        <span>Typescript</span>
-        <span>ExpressJS</span>
-        <span>MongoDB</span>
-        <span>Passport</span>
-      </div>
+      <ul>
+        <li>AngularJS</li>
+        <li>Webpack</li>
+        <li>Typescript</li>
+        <li>ExpressJS</li>
+        <li>MongoDB</li>
+        <li>Passport</li>
+      </ul>
     ),
     numberImage: 3
   },
@@ -151,6 +161,30 @@ const data = [
       </>
     ),
     numberImage: 3
+  },
+  {
+    image: 'vtsale',
+    href: 'vtsale',
+    title: 'VT Sale',
+    subtitle: 'POS dashboard',
+    description: (
+      <>
+        <p>
+          VTSale is a web application to mananage sale, import, export and
+          invoice for small business
+        </p>
+      </>
+    ),
+    technology: (
+      <ul>
+        <li>ReactJS</li>
+        <li>Webpack</li>
+        <li>Typescript</li>
+        <li>ExpressJS</li>
+        <li>MongoDB</li>
+      </ul>
+    ),
+    numberImage: 4,
   }
 ];
 

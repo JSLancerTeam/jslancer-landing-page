@@ -61,6 +61,7 @@ const Header: React.FunctionComponent = () => {
               <ActiveLink href="/about" title="About" />
               <ActiveLink href="/portfolio" title="Portfolio" />
               <ActiveLink href="/team" title="Team" />
+              <ActiveLink href="https://blog.jslancer.com" title="Blog" />
               <ActiveLink href="/contact" title="Contact" />
             </ul>
           </nav>

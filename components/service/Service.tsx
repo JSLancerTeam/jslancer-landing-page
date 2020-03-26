@@ -1,5 +1,5 @@
 import React from 'react';
-import { IData } from '../../pages/service/data';
+import { IData } from '../../data/service';
 
 interface IProps {
   data: Array<IData>;

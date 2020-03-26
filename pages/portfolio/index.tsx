@@ -2,7 +2,7 @@ import * as React from 'react';
 import { NextPage } from 'next';
 import Link from 'next/link';
 
-import data from './data';
+import data from '../../data/portoflio';
 import Layout from '../../components/common/Layout';
 import Breadcrumb from '../../components/common/Breadcrumb';
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { IData } from '../../pages/team/data';
+import { IData } from '../../data/team';
 import TeamBlock from './Block';
 
 interface IProps {

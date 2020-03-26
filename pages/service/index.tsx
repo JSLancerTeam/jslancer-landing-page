@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 import Layout from '../../components/common/Layout';
 import Breadcrumb from '../../components/common/Breadcrumb';
-import data from './data';
+import data from '../../data/service';
 
 const ServicePage: NextPage = () => {
   return (

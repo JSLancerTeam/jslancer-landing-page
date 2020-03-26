@@ -7,9 +7,9 @@ import About from '../components/About';
 //import Service from '../components/service/Service';
 import Portfolio from '../components/Portfolio';
 import Team from '../components/team/Team';
-import serviceData from './service/data';
-import portfolioData from './portfolio/data';
-import teamData from './team/data';
+import serviceData from '../data/service';
+import portfolioData from '../data/portoflio';
+import teamData from '../data/team';
 
 const IndexPage: NextPage = () => {
   return (

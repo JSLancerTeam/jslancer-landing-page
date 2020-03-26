@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from 'react';
 import Link from 'next/link';
 
-import { IData } from '../../pages/team/data';
+import { IData } from '../../data/team';
 
 interface IProps {
   data: Array<IData>;

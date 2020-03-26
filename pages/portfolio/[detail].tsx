@@ -10,7 +10,7 @@ import {
 } from 'react-icons/fa';
 
 import Layout from '../../components/common/Layout';
-import data from './data';
+import data from '../../data/portoflio';
 
 const SocialShare = [
   { Social: <FaFacebookF />, link: 'https://www.facebook.com/' },

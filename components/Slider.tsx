@@ -1,6 +1,6 @@
 import React from 'react';
 import ServiceBlock from './service/Block';
-import { IData } from '../pages/service/data';
+import { IData } from '../data/service';
 
 interface IProps {
   data: Array<IData>;

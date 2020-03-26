@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Slider from 'react-slick';
 import { portfolioSlick2 } from '../constants/script';
-import { IData } from '../pages/portfolio/data';
+import { IData } from '../data/portoflio';
 
 interface IProps {
   data: Array<IData>;

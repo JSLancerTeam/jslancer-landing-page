@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { NextPage } from 'next';
-import data from './data';
+import data from '../../data/team';
 
 import Layout from '../../components/common/Layout';
 import Breadcrumb from '../../components/common/Breadcrumb';

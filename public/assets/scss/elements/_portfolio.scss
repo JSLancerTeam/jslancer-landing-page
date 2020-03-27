@@ -20,6 +20,9 @@
   @media #{$sm-layout} {
     min-height: 200px;
   }
+  .portfolio-link::after {
+    content: attr(title);
+  }
   .thumbnail-inner {
     transition: transform 0.28s ease;
     z-index: 9;

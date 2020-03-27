@@ -1,10 +1,10 @@
 /*====================
-    Slider Area 
+    Slider Area
 ======================*/
 .slider-fixed--height {
     min-height: 1080px;
     width: 100%;
-    
+
     @media #{$laptop-device} {
         min-height: 900px;
     }
@@ -60,7 +60,7 @@
 
 }
 
-// Personal Portfolio 
+// Personal Portfolio
 .slide {
     &.personal-portfolio-slider ,
     &.designer-portfolio {
@@ -224,6 +224,10 @@
                     font-size: 50px;
                     line-height: 70px;
                     margin-bottom: 0;
+                    background: transparent;
+                    color: #f4163c;
+                    margin-top: 20px;
+                    -webkit-text-fill-color: #f4163c;
                 }
                 @media #{$large-mobile} {
                     font-size: 40px;
@@ -245,7 +249,7 @@
             @media #{$md-layout} {
                 padding-top: 50px;
             }
-    
+
             h1 {
                 &.title {
                     @media #{$md-layout} {
@@ -268,7 +272,7 @@
         }
         &.fullscreen {
             min-height: 950px;
-             
+
             @media #{$laptop-device} {
                 padding-top: 160px;
                 padding-bottom: 160px;
@@ -283,9 +287,9 @@
             @media #{$sm-layout} {
                 min-height: auto;
             }
-           
+
         }
-       
+
         @media #{$lg-layout} {
             padding-top: 160px;
             padding-bottom: 170px;
@@ -325,7 +329,7 @@
                     color: #ffffff;
                     font-size: 100px;
                     font-weight: 900;
-                    
+
                     @media #{$lg-layout} {
                         font-size: 72px;
                     }
@@ -340,7 +344,7 @@
                     }
                 }
             }
-            
+
             p {
                 &.description {
                     color: #c6c9d8;
@@ -456,7 +460,7 @@
 }
 
 
-// Slick Animation For Slider 
+// Slick Animation For Slider
 .slick-slide {
     &.slick-current {
         .slide {
@@ -524,7 +528,7 @@
 
 
 /*=======================
-    Slider Paralax 
+    Slider Paralax
 =========================*/
 
 .slider-paralax,
@@ -565,7 +569,7 @@
 }
 
 
-// Slider Videi Bg 
+// Slider Videi Bg
 .slider-video-bg {
     position: relative;
     z-index: 2;
@@ -634,7 +638,7 @@
 
 
 /*----------------------
-Slider Default 
+Slider Default
 -----------------------*/
 
 .slider-activation {
@@ -721,7 +725,7 @@ Slider Default
         }
     }
     &:hover{
-        
+
     }
 }
 
@@ -759,11 +763,11 @@ Slider Default
 .slide {
     .service {
         margin-top: 50px;
-        
+
         @media #{$lg-layout} {
             margin-top: 20px;
         }
-        
+
         @media #{$laptop-device} {
             margin-top: 0px;
         }

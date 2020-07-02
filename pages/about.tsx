@@ -62,8 +62,8 @@ const AboutPage: NextPage = () => {
           <div className="content-wrapper">
             <div className="content">
               <h4 className="theme-gradient">Find out more</h4>
-              <p>We offer 1-hour of free consultant. Let's talk about your project and find out more about our team.</p>
-              <a className="rn-btn btn-white" href="https://calendly.com/jslancer-contact-us/60min">
+              <p>We offer 30-minutes of free consultant. Let's talk about your project and find out more about our team.</p>
+              <a className="rn-btn btn-white" href="https://calendly.com/jslancer-contact-us/30min">
                 Schedule a meeting
               </a>
             </div>

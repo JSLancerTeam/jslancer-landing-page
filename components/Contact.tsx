@@ -8,14 +8,14 @@ const Contact: React.FunctionComponent = () => (
           <div className="section-title text-left mb--50">
             <h2 className="title">Find out more</h2>
             <p className="description">
-              We provide one hour of free consultant. Click on the button beblow
+              We provide 30 mins of free consultant. Click on the button beblow
               to schedule a meeting with us. If you have some question and you
               want to answer quickly, feel free to send me an email at{' '}
               <a href="mailto:david@jslancer.com">david@jslancer.com</a>
             </p>
             <a
               className="rn-btn"
-              href="https://calendly.com/jslancer-contact-us/60min"
+              href="https://calendly.com/jslancer-contact-us/30min"
             >
               Schedule a meeting
             </a>

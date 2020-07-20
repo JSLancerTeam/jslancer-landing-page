@@ -66,6 +66,18 @@ const data = [
         url: 'https://github.com/tuananhitoct'
       }
     ]
+  },
+  {
+    images: 'viet-anh',
+    title: 'Viet Anh',
+    href: '#',
+    designation: 'Front-end Developer',
+    socialNetwork: [
+      {
+        icon: <FaGithub />,
+        url: 'https://github.com/vietanhcoder'
+      }
+    ]
   }
 ];
 

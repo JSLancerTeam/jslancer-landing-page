@@ -2,22 +2,9 @@ import React from 'react';
 import { useRouter } from 'next/router';
 import { NextPage } from 'next';
 import Link from 'next/link';
-import {
-  FaTwitter,
-  FaInstagram,
-  FaFacebookF,
-  FaLinkedinIn
-} from 'react-icons/fa';
 
 import Layout from '../../components/common/Layout';
 import data from '../../data/portoflio';
-
-const SocialShare = [
-  { Social: <FaFacebookF />, link: 'https://www.facebook.com/' },
-  { Social: <FaLinkedinIn />, link: 'https://www.linkedin.com/' },
-  { Social: <FaInstagram />, link: 'https://www.instagram.com/' },
-  { Social: <FaTwitter />, link: 'https://twitter.com/' }
-];
 
 const PortfolioDetailPage: NextPage = () => {
   const router = useRouter();
@@ -79,7 +66,7 @@ const PortfolioDetailPage: NextPage = () => {
                           </div>
                         )}
                       </div>
-                      
+
                     </div>
                     <div className="portfolio-thumb-inner">
                       {infoDetail?.numberImage && Array.from(Array(infoDetail?.numberImage).keys()).map(

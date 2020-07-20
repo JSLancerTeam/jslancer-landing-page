@@ -13,7 +13,7 @@ const ServiceBlock: React.FunctionComponent<IProps> = ({ data }) => (
           <div className="icon">
             <img
               src={`/assets/images/icons/icon-0${i + 1}.png`}
-              alt="Digital Agency"
+              alt="JSLancer"
             />
           </div>
           <div className="content">

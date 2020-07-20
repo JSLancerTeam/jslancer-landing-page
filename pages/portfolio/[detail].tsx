@@ -79,16 +79,7 @@ const PortfolioDetailPage: NextPage = () => {
                           </div>
                         )}
                       </div>
-
-                      <div className="portfolio-share-link mt--20 pb--70 pb_sm--40">
-                        <ul className="social-share rn-lg-size d-flex justify-content-start liststyle mt--15">
-                          {SocialShare.map((val, i) => (
-                            <li key={i}>
-                              <a href={`${val.link}`}>{val.Social}</a>
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
+                      
                     </div>
                     <div className="portfolio-thumb-inner">
                       {infoDetail?.numberImage && Array.from(Array(infoDetail?.numberImage).keys()).map(

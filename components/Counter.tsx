@@ -10,7 +10,7 @@ const Data = [
     `
   },
   {
-    countNum: 20,
+    countNum: 15,
     countTitle:
       `This is the number of projects which we have completed. We work closely with you to understand what you need and provide the best solution`
   },

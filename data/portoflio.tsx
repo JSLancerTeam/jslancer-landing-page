@@ -14,6 +14,42 @@ export interface IData {
 
 const data = [
   {
+    image: 'iorad',
+    href: 'iorad',
+    title: 'Iorad',
+    subtitle: 'Tutorial builder',
+    description: (
+      <>
+        <p>
+          Iorad is a tutorial builder tool which is using by many companies to create training tutorial videos for their employees and customers. Their customers include Zappy, Zoom, Minted, WeWork.    
+        </p>
+        <p>
+          <strong>What we have done:</strong>
+          <br />
+          <ul>
+            <li>Implement new interface for website</li>
+            <li>API development</li>
+          </ul>      
+        </p>        
+      </>
+    ),
+    aboutClient: (
+      <ul>
+        <li>Company: Iorad</li>
+        <li>Owner: Sundeep Patel</li>        
+      </ul>
+    ),
+    technology: (
+      <ul>
+        <li>React</li>
+        <li>NodeJS</li>
+        <li>ExpressJS</li>
+        <li>Mysql</li>
+      </ul>
+    ),
+    numberImage: 2
+  },  
+  {
     image: 'pullr',
     href: 'pullr',
     title: 'Pullr',

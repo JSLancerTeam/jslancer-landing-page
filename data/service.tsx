@@ -14,7 +14,7 @@ const data = [
     title: 'Technical Consultant',
     href: 'techical-consultant',
     description:
-      'We will schedule a meeting to help you troubleshoot the issue in your project.'
+      'We will schedule a meeting to help you troubleshoot the issues in your project.'
   },
   {
     icon: <FiLayers />,
@@ -23,13 +23,13 @@ const data = [
     description: (
       <div>
         <p>
-        We will review your codebase and do a lot of assessments. The accessments include:
+        We will review your codebase and do a lot of assessments. The assessments include:
         </p>
         <ul>
           <li>Application performance</li>
           <li>SEO</li>
           <li>Project structure</li>
-          <li>Code cleaness</li>
+          <li>Code cleanliness</li>
         </ul>
       </div>
     )
@@ -39,7 +39,7 @@ const data = [
     title: 'Web & Mobile Development',
     href: 'web-mobile-development',
     description:
-      'We will work closely with you to understand the requirements for your next project. Our working process and high skill team ensure that the final results will not only satisfy your requirements but also meet the industry technical standards.'
+      'We will work closely with you to understand the requirements for your project. Our working process and high skill team ensure that the final result will not only satisfy your requirements but also meet the industry technical standard.'
   },
 ];
 

@@ -54,6 +54,18 @@ const data = [
         url: 'https://github.com/nhattruongniit'
       }
     ]
+  },
+  {
+    images: 'tuan-anh',
+    title: 'Clement Le',
+    href: '#',
+    designation: 'Full-stack Developer',
+    socialNetwork: [
+      {
+        icon: <FaGithub />,
+        url: 'https://github.com/tuananhitoct'
+      }
+    ]
   }
 ];
 

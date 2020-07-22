@@ -84,13 +84,6 @@ const Layout: React.FunctionComponent<Props> = ({
     <Header />
     {children}
     <Footer />
-    {/* Start Back To Top */}
-    <div className="backto-top">
-      <ScrollToTop showUnder={160}>
-        <FiChevronUp />
-      </ScrollToTop>
-    </div>
-    {/* End Back To Top */}
   </div>
 );
 

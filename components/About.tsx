@@ -19,7 +19,7 @@ const About: React.FunctionComponent = () => (
             <div className="section-title">
               <h2 className="title">About us</h2>
               <p className="description">
-                We are a web and mobile development team from Vietnam. We focus
+                We are a web and mobile development company from Vietnam. We focus
                 on develop rich interactive applications with React and NodeJS technologies
               </p>
             </div>
@@ -28,7 +28,7 @@ const About: React.FunctionComponent = () => (
                 <div className="about-us-list">
                   <h3 className="title">High technical skills</h3>
                   <p>
-                    Our team consists of senior developers who have vast
+                    Our company consists of senior developers who have vast
                     experience with React and React Native. Our technical skill
                     allow us to tackle difficult challenges and bring the
                     best solution for your product.

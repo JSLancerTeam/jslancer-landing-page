@@ -23,7 +23,7 @@ const Layout: React.FunctionComponent<Props> = ({
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <meta
         name="description"
-        content="We are a development team which provide consultant and mobile and web development"
+        content="We are a development company which provide consultant and mobile and web development"
       />
       <meta property="og:locale" content="en_US" />
       <meta property="og:type" content="website" />
@@ -33,7 +33,7 @@ const Layout: React.FunctionComponent<Props> = ({
       />
       <meta
         property="og:description"
-        content="We are a development team which provide consultant and mobile and web development"
+        content="We are a development company which provide consultant and mobile and web development"
       />
       <meta property="og:url" content="https://jslancer.com/" />
       <meta property="og:site_name" content="JSLancer" />

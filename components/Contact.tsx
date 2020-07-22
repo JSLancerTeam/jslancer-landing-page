@@ -21,54 +21,7 @@ const Contact: React.FunctionComponent = () => (
             </a>
           </div>
           <div className="form-wrapper">
-            {/* <form>
-              <label htmlFor="item01">
-                <input
-                  type="text"
-                  name="name"
-                  id="item01"
-                  value=""
-                  placeholder="Your Name *"
-                />
-              </label>
 
-              <label htmlFor="item02">
-                <input
-                  type="text"
-                  name="email"
-                  id="item02"
-                  value=""
-                  placeholder="Your email *"
-                />
-              </label>
-
-              <label htmlFor="item03">
-                <input
-                  type="text"
-                  name="subject"
-                  id="item03"
-                  value=""
-                  placeholder="Write a Subject"
-                />
-              </label>
-              <label htmlFor="item04">
-                <textarea
-                  id="item04"
-                  name="message"
-                  value=""
-                  placeholder="Your Message"
-                />
-              </label>
-              <button
-                className="rn-button-style--2 btn-solid"
-                type="submit"
-                value="submit"
-                name="submit"
-                id="mc-embedded-subscribe"
-              >
-                Submit
-              </button>
-            </form> */}
           </div>
         </div>
         <div className="col-lg-6 order-1 order-lg-2">

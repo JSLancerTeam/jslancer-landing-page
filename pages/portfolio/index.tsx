@@ -21,8 +21,7 @@ const PortfolioPage: NextPage = () => {
                   <p>
                     We have started working with Javascript since 2014. Since
                     that time, We have created countless successful web-app for
-                    my clients. We are a full-stack web team, it's mean that we
-                    can work on both frontend and backend.
+                    my clients.
                   </p>
                 </div>
               </div>

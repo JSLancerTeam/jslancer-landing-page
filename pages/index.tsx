@@ -10,6 +10,7 @@ import Team from '../components/team/Team';
 import serviceData from '../data/service';
 import portfolioData from '../data/portoflio';
 import teamData from '../data/team';
+import ContactDetails from '../components/ContactDetails';
 
 const IndexPage: NextPage = () => {
   return (
@@ -27,7 +28,20 @@ const IndexPage: NextPage = () => {
           <Portfolio data={portfolioData} />
         </div>
       </div>
+
       <Team data={teamData} />
+
+      <div className="rn-contact-top-area ptb--120 bg_color--5">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <h2 className="title">Contact us</h2>
+              <br />
+            </div>
+          </div>
+          <ContactDetails />
+        </div>
+      </div>
     </Layout>
   );
 };

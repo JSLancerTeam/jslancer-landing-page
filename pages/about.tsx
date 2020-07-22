@@ -28,15 +28,15 @@ const AboutPage: NextPage = () => {
                   <div className="section-title">
                     <h2 className="title">About us</h2>
                     <p className="description">
-                      We are a and web development team from Vietnam.
+                      We are a and web development company from Vietnam.
                       <br />
-                      Our team is highly specialize in <strong>
+                      Our company is highly specialize in <strong>
                         React
                       </strong>{" "}
                       and <strong>NodeJS</strong>.
                     </p>
                     <p className="description">
-                      Each member in our team has over 5 years experience with
+                      Each member in our company has over 5 years experience with
                       web development.
                     </p>
                     <p className="description">
@@ -50,7 +50,7 @@ const AboutPage: NextPage = () => {
                     </p>
 
                     <p className="description">
-                      In the last 3 years, our teams have completed over <strong>15 projects</strong> for our clients and contribute a significant amount of works to their sucess.
+                      In the last 3 years, our company have completed over <strong>15 projects</strong> for our clients and contribute a significant amount of works to their sucess.
                     </p>
 
                     <p className="description">
@@ -59,10 +59,10 @@ const AboutPage: NextPage = () => {
                         <li>We always take at least 20% of project time to discuss and understand project requirements with our clients</li>
                         <li>We split project requirements into milestone and provide an accurate estimation for time and cost for each project</li>
                         <li>We have a clear dead-line to finish project on-time</li>
-                        <li>We are export of ReactJS and NodeJS which help us overcome difficult challenges in any projects</li>                        
+                        <li>We are export of ReactJS and NodeJS which help us overcome difficult challenges in any projects</li>
                       </ul>
                     </p>
-                    
+
                   </div>
                 </div>
               </div>
@@ -95,7 +95,7 @@ const AboutPage: NextPage = () => {
               <h4 className="theme-gradient">Find out more</h4>
               <p>
                 We offer 30-minutes of free consultant. Let's talk about your
-                project and find out more about our team.
+                project and find out more about our company.
               </p>
               <a
                 className="rn-btn btn-white"

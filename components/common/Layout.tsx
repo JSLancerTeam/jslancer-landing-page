@@ -1,7 +1,5 @@
 import React from 'react';
 import Head from 'next/head';
-import ScrollToTop from 'react-scroll-up';
-import { FiChevronUp } from 'react-icons/fi';
 import '../../public/assets/scss/style.scss';
 
 import Header from './Header';

@@ -189,12 +189,22 @@
 /*-------------------
     Team Static
 ---------------------*/
+@media screen and (max-width: 500px) {
+    .team-static .thumbnail img {
+        height: 209px !important;
+    }
+
+    .col-sm-6 {
+        width: 50%;
+    }
+}
 
 .team-static{
     margin-bottom: 20px;
     .thumbnail img {
         height: 466px;
     }
+
     .inner {
         padding-top: 17px;
         .content {

@@ -10,7 +10,7 @@ const ContactDetails = () => (
           <FiMail />
         </div>
         <div className="inner">
-          <h4 className="title">Email Address</h4>
+          <h4 className="title">Email</h4>
           <p>
             <a href="mailto:david@jslancer.com">david@jslancer.com</a>
           </p>
@@ -19,7 +19,7 @@ const ContactDetails = () => (
     </div>
     {/* End Single Address  */}
 
-    <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+    <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt_sm--50">
       <div className="rn-address">
         <div className="icon">
           <FiHeadphones />

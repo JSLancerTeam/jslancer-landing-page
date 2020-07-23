@@ -20,6 +20,7 @@ const Slider: React.FunctionComponent<IProps> = ({ data }) => (
 
               <h1 className="title theme-gradient">
                 JSLancer
+                <br />
                 <p>Mobile and web development company</p>
               </h1>
 

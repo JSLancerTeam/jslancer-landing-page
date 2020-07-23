@@ -1,6 +1,5 @@
 import React from 'react';
 import Head from 'next/head';
-import '../../public/assets/scss/style.scss';
 
 import Header from './Header';
 import Footer from './Footer';

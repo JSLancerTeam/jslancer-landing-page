@@ -191,11 +191,11 @@
 ---------------------*/
 @media screen and (max-width: 500px) {
     .team-static .thumbnail img {
-        height: 209px !important;
+        height: auto !important;
     }
 
-    .col-sm-6 {
-        width: 50%;
+    .rn-team-area .col-sm-6 {
+        width: 50% !important;
     }
 }
 

@@ -156,14 +156,14 @@
         }
 
         @media #{$sm-layout} {
-            padding-left: 30px;
-            padding-right: 30px;
+            padding-left: 0px;
+            padding-right: 0px;
             padding-top: 10px;
             padding-bottom: 10px;
         }
 
         .header-wrapper{
-            padding: 20px 0;
+            padding: 15px;
             transition: 0.3s;
             .logo {
                 a{

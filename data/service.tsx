@@ -11,35 +11,35 @@ export interface IData {
 const data = [
   {
     icon: <FiUsers />,
-    title: 'Technical Consultant',
-    href: 'techical-consultant',
-    description:
-      'We will schedule a meeting to help you troubleshoot the issues in your project.'
+    title: 'Web and Mobile application development',
+    href: 'web-and-mobile',
+    description: (
+      <p>
+        We transform your idea and business requirements into a real product.
+      </p>
+    )
+
   },
   {
     icon: <FiLayers />,
-    title: 'Code Review',
-    href: 'code-review',
+    title: 'MVP development',
+    href: 'mvp-development',
     description: (
-      <div>
-        <p>
-        We will review your codebase and do a lot of assessments. The assessments include:
-        </p>
-        <ul>
-          <li>Application performance</li>
-          <li>SEO</li>
-          <li>Project structure</li>
-          <li>Code cleanliness</li>
-        </ul>
-      </div>
+      <p>
+        We help you implement an MVP to gain understanding about your customers’ interest in a very short time.
+      </p>
     )
   },
   {
     icon: <FiPhone />,
-    title: 'Web & Mobile Development',
-    href: 'web-mobile-development',
-    description:
-      'We will work closely with you to understand the requirements for your project. Our working process and high skill team ensure that the final result will not only satisfy your requirements but also meet the industry technical standard.'
+    title: 'Application re-engineering',
+    href: 'application-re-engineering',
+    description: (
+      <p>
+        Our application re-engineering amends performance of existing web solutions to make them more business efficient.
+      </p>
+    )
+
   },
 ];
 

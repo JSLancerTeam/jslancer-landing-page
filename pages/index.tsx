@@ -11,6 +11,7 @@ import serviceData from '../data/service';
 import portfolioData from '../data/portoflio';
 import teamData from '../data/team';
 import ContactDetails from '../components/ContactDetails';
+import TechnologyStack from '../components/TechnologyStack';
 
 const IndexPage: NextPage = () => {
   return (
@@ -21,6 +22,12 @@ const IndexPage: NextPage = () => {
 
       <div className="about-area about-position-top pb--120">
         <About />
+      </div>
+
+      <div className="portfolio-area ptb--120 bg_color--1">
+        <div className="portfolio-sacousel-inner mb--55">
+          <TechnologyStack />
+        </div>
       </div>
 
       <div className="portfolio-area ptb--120 bg_color--1">

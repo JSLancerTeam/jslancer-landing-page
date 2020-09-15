@@ -15,7 +15,7 @@ const TeamBlock: FunctionComponent<IProps> = ({ data }) => {
           <div className="team-static">
             <div className="thumbnail">
               <img
-                src={`/assets/images/team/team-${value.images}.jpg`}
+                src={`/assets/images/team/team-${value.images}`}
                 alt="Blog Images"
               />
             </div>

@@ -16,7 +16,7 @@ export interface IData {
 
 const data = [
   {
-    images: 'david-tran',
+    images: 'david-tran-new.png',
     title: 'David Tran',
     href: '#',
     designation: 'Lead developer',
@@ -32,7 +32,7 @@ const data = [
     ]
   },
   {
-    images: 'leo-phan',
+    images: 'leo-phan-new.png',
     title: 'Leo Phan',
     href: '#',
     designation: 'Full-stack developer',
@@ -44,7 +44,7 @@ const data = [
     ]
   },
   {
-    images: 'tony-nguyen',
+    images: 'tony-nguyen-new.png',
     title: 'Tony Nguyen',
     href: '#',
     designation: 'Frontend Developer',
@@ -56,7 +56,7 @@ const data = [
     ]
   },
   {
-    images: 'tuan-anh',
+    images: 'tuan-anh-new.png',
     title: 'Clement Le',
     href: '#',
     designation: 'Full-stack Developer',
@@ -68,7 +68,7 @@ const data = [
     ]
   },
   {
-    images: 'viet-anh',
+    images: 'viet-anh-new.png',
     title: 'Viet Anh',
     href: '#',
     designation: 'Front-end Developer',

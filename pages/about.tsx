@@ -28,16 +28,19 @@ const AboutPage: NextPage = () => {
                   <div className="section-title">
                     <h2 className="title">About us</h2>
                     <p className="description">
-                      We are a and web development company from Vietnam.
+                      We are a mobile and web development company from Vietnam.
                       <br />
                       Our company is highly specialize in <strong>
                         React
                       </strong>{" "}
                       and <strong>NodeJS</strong>.
                     </p>
+                    <p>
+                      We make web application, ecommerce website, real-time data application and Chrome extension.
+                    </p>
                     <p className="description">
                       Each member in our company has over 5 years experience with
-                      web development.
+                      web development. We have strong bond and work together to finish project.
                     </p>
                     <p className="description">
                       Besides outsourcing, we also contributing to software and
@@ -52,14 +55,28 @@ const AboutPage: NextPage = () => {
                     <p className="description">
                       In the last 3 years, our company have completed over <strong>15 projects</strong> for our clients and contribute a significant amount of works to their sucess.
                     </p>
-
+                    <br />
                     <p className="description">
-                      <strong>Here is our we works:</strong>
+                      <h4>Our technology stacks:</h4>
+                      <strong>Frontend:</strong>
                       <ul>
-                        <li>We always take at least 20% of project time to discuss and understand project requirements with our clients</li>
-                        <li>We split project requirements into milestone and provide an accurate estimation for time and cost for each project</li>
-                        <li>We have a clear dead-line to finish project on-time</li>
-                        <li>We are export of ReactJS and NodeJS which help us overcome difficult challenges in any projects</li>
+                        <li>ReactJS</li>
+                        <li>redux, redux-sage, mobX</li>
+                        <li>styled-components</li>
+                        <li>react-router-dom</li>
+                        <li>graphql</li>
+                        <li>socket.io</li>
+                        <li>Chrome Extension API</li>
+                      </ul>
+                      <strong>Backend:</strong>
+                      <ul>
+                        <li>ExpressJS</li>
+                        <li>Knex, Waterline, Mongoose</li>
+                        <li>Firebase</li>
+                        <li>Mongodb, MySql, PostgresQL</li>
+                        <li>GraphQL</li>
+                        <li>Stripe, Paypal</li>
+                        <li>Docker</li>
                       </ul>
                     </p>
 

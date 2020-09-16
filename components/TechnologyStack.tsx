@@ -22,6 +22,12 @@ const TechnologyItem = styled.div`
   justify-content: center;
   align-items: center;
 
+  @media screen and (max-width: 500px) {
+    width: 50%;
+    margin-right: 0;
+    margin-bottom: 50px;
+    justify-content: flex-start;
+  }
 `;
 
 const TechnologyImage = styled.img`

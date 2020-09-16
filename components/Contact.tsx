@@ -11,7 +11,7 @@ const Contact: React.FunctionComponent = () => (
               We provide 30 mins of free consultant. Click on the button beblow
               to schedule a meeting with us. If you have some question and you
               want to answer quickly, feel free to send me an email at{' '}
-              <a href="mailto:david@jslancer.com">david@jslancer.com</a>
+              <a href="mailto:hello@jslancer.com">hello@jslancer.com</a>
             </p>
             <a
               className="rn-btn"

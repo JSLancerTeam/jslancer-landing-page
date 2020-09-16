@@ -12,7 +12,7 @@ const ContactDetails = () => (
         <div className="inner">
           <h4 className="title">Email</h4>
           <p>
-            <a href="mailto:david@jslancer.com">david@jslancer.com</a>
+            <a href="mailto:hello@jslancer.com">hello@jslancer.com</a>
           </p>
         </div>
       </div>

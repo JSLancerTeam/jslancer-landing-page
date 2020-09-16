@@ -72,11 +72,6 @@ const Layout: React.FunctionComponent<Props> = ({
   ga('send', 'pageview');`
         }}
       ></script>
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `window.$crisp=[];window.CRISP_WEBSITE_ID="b93bde41-86ac-4a0b-af60-604a31b04a86";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();`
-        }}
-      ></script>
     </Head>
     <Header />
     {children}

@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const ClientImg = styled.img`
-  height: 35px;
+  height: 60px;
   filter: grayscale(100%);
   filter: gray;
   opacity: 0.7;
@@ -52,8 +52,8 @@ const ClientWrapper = styled.div`
 
 const ClientItems = [
   {
-    image: 'assets/images/client/efexcon_Logo_positiv.png',
-    name: 'Exfexcon',
+    image: 'assets/images/client/c_i_studios.png',
+    name: 'C&I Studios',
   },
   {
     image: 'assets/images/client/ioradLogo.png',
@@ -62,6 +62,11 @@ const ClientItems = [
   {
     image: 'assets/images/client/taduLogo.png',
     name: 'Tadu Phone',
+  },
+
+  {
+    image: 'assets/images/client/efexcon_Logo_positiv.png',
+    name: 'Exfexcon',
   },
 ];
 
@@ -84,7 +89,7 @@ const Clients = () => {
               <ClientList>
                 {ClientItems.map((item) => (
                   <div
-                    className='col-4 d-flex align-items-center'
+                    className='col-3 d-flex align-items-center flex-wrap'
                     key={item.name}
                   >
                     <ClientItem>

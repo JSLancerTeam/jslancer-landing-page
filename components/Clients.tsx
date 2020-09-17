@@ -20,7 +20,7 @@ const ClientList = styled.div`
   flex-wrap: wrap;
   height: min-content;
   width: 100%;
-  margin-top: 20px;
+  padding-top: 30px;
 `;
 
 const ClientName = styled.div`
@@ -38,6 +38,14 @@ const ClientName = styled.div`
   }
 `;
 
+const ClientItemWrapper = styled.div`
+  margin-bottom: 30px;
+
+  @media screen and (max-width: 500px) {
+    margin-bottom: 20px;
+  }
+`;
+
 const ClientItem = styled.div`
   cursor: pointer;
   display: flex;
@@ -47,18 +55,12 @@ const ClientItem = styled.div`
   padding: 0;
   width: 100%;
   transition: 0.5s;
-  margin-bottom: 40px;
-
-  &::nth-child(2n) {
-    margin-bottom: 0;
-  }
 
   @media screen and (max-width: 500px) {
     filter: none;
     opacity: 1;
     margin-right: 0;
     justify-content: flex-start;
-    margin-bottom: 0;
   }
 
   &:hover ${ClientName} {
@@ -128,8 +130,8 @@ const Clients = () => {
             <div className='col-md-12 p-2'>
               <ClientList>
                 {ClientItems.map((item) => (
-                  <div
-                    className='col-lg-4 col-6 col-md-6 col-sm-6 justify-content-center d-flex align-items-center flex-wrap'
+                  <ClientItemWrapper
+                    className='col-lg-3 col-6 col-md-4 col-sm-6 justify-content-center d-flex align-items-center flex-wrap'
                     key={item.name}
                   >
                     <ClientItem>
@@ -142,7 +144,7 @@ const Clients = () => {
                       </ImgWrapper>
                       <ClientName>{item.name}</ClientName>
                     </ClientItem>
-                  </div>
+                  </ClientItemWrapper>
                 ))}
               </ClientList>
             </div>

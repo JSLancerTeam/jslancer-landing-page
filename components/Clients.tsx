@@ -2,15 +2,11 @@ import React from 'react';
 import styled from 'styled-components';
 
 const ClientImg = styled.img`
-  height: 35px;
+  height: 45px;
   filter: grayscale(100%);
   filter: gray;
   opacity: 0.7;
-  transition: 0.9s;
-  &:hover {
-    filter: none;
-    opacity: 1;
-  }
+
   @media screen and (max-width: 500px) {
     filter: none;
     opacity: 1;
@@ -21,13 +17,27 @@ const ClientList = styled.div`
   flex-wrap: wrap;
   height: min-content;
   width: 100%;
+  margin-top: 20px;
 `;
+
+const ClientName = styled.div`
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+  color: gray;
+
+  &:hover {
+    color: black;
+  }
+`;
+
 const ClientItem = styled.div`
+  cursor: pointer;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 120px 20px;
   width: 100%;
   transition: 0.5s;
 
@@ -39,15 +49,20 @@ const ClientItem = styled.div`
     margin-bottom: 50px;
     justify-content: flex-start;
   }
-`;
 
-const ClientName = styled.div`
-  text-align: center;
-  margin-top: 10px;
+  &:hover ${ClientName} {
+    color: black;
+  }
+
+  &:hover ${ClientImg} {
+    filter: none;
+    opacity: 1;
+  }
 `;
 
 const ClientWrapper = styled.div`
   background: hsla(0, 0%, 71%, 0.15);
+  margin-top: 20px;
 `;
 
 const ClientItems = [
@@ -61,7 +76,7 @@ const ClientItems = [
   },
   {
     image: 'assets/images/client/taduLogo.png',
-    name: 'Tadu Phone',
+    name: 'Tadu.vn',
   },
 ];
 
@@ -73,6 +88,9 @@ const Clients = () => {
           <div className='col-md-12'>
             <div className='section-title'>
               <h2>Our Clients</h2>
+              <p>
+                Writing code is our passion and making better softwares for people is the highest mission at our company
+              </p>
             </div>
           </div>
         </div>

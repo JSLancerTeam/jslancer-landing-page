@@ -69,7 +69,7 @@ const data = [
   },
   {
     images: 'viet-anh-new.png',
-    title: 'Viet Anh',
+    title: 'Felix Le',
     href: '#',
     designation: 'Front-end Developer',
     socialNetwork: [

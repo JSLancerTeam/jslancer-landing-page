@@ -18,6 +18,7 @@
         .icon {
             img {
                 margin-bottom: 34px;
+                filter: invert(50%) sepia(17%) saturate(7315%) hue-rotate(164deg) brightness(98%) contrast(101%);
                 @media #{$sm-layout} {
                     margin-bottom: 14px;
                     height: 53px;

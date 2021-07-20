@@ -32,7 +32,7 @@ const TechnologyItem = styled.div<{ order?: number }>`
   }
 `;
 
-const TechnologyImage = styled.div`
+const TechnologyImage = styled.div<{ maxWidth?: number | string }>`
   box-shadow: rgb(0 0 0 / 30%) 4px 4px 10px;
   width: 131px;
   height: 131px;
@@ -51,7 +51,7 @@ const TechnologyImage = styled.div`
     height: 50px;
 
     img {
-      max-width: 50%;
+      max-width: ${props => props.maxWidth || '50%'};
     }
   }
 `;
@@ -78,6 +78,7 @@ const frontendItems = [{
   image: 'assets/images/technology/styled-components.svg',
   name: 'Styled-components',
   order: 1,
+  maxWidth: '60%',
 }, {
   image: 'assets/images/technology/javascript.svg',
   name: 'Javascript',
@@ -97,13 +98,16 @@ const backendItems = [{
   name: 'Javascript'
 }, {
   image: 'assets/images/technology/node.svg',
-  name: 'NodeJS'
+  name: 'NodeJS',
+  maxWidth: '80%',
 }, {
   image: 'assets/images/technology/apollo.svg',
-  name: 'Apollo'
+  name: 'Apollo',
+  maxWidth: '80%',
 }, {
   image: 'assets/images/technology/mysql.svg',
-  name: 'MySQL'
+  name: 'MySQL',
+  maxWidth: '80%',
 }, {
   image: 'assets/images/technology/mongo.svg',
   name: 'MongoDB'
@@ -129,7 +133,7 @@ const TechnologyStack: React.FunctionComponent = () => (
             <TechnologyList>
               {frontendItems.map(item => (
                 <TechnologyItem key={item.name} order={item.order}>
-                  <TechnologyImage>
+                  <TechnologyImage maxWidth={item.maxWidth}>
                     <img src={item.image} alt={item.name} />
                   </TechnologyImage>
                   <TechnologyName>{item.name}</TechnologyName>
@@ -141,7 +145,7 @@ const TechnologyStack: React.FunctionComponent = () => (
             <TechnologyList>
               {backendItems.map(item => (
                 <TechnologyItem key={item.name}>
-                  <TechnologyImage>
+                  <TechnologyImage maxWidth={item.maxWidth}>
                     <img src={item.image} alt={item.name} />
                   </TechnologyImage>
                   <TechnologyName>{item.name}</TechnologyName>

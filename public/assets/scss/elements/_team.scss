@@ -223,11 +223,17 @@
 
 @media screen and (max-width: 500px) {
     .team-static .thumbnail img {
-        height: auto !important;
+        height: 200px;
+    }
+
+    .team-static .inner .content p.designation {
+        font-size: 13px !important;
     }
 
     .rn-team-area .col-sm-6 {
         width: 50% !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
     }
 }
 

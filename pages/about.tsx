@@ -28,58 +28,27 @@ const AboutPage: NextPage = () => {
                   <div className="section-title">
                     <h2 className="title">About us</h2>
                     <p className="description">
-                      We are a mobile and web development company from Vietnam.
-                      <br />
-                      Our company is highly specialize in <strong>
-                        React
-                      </strong>{" "}
-                      and <strong>NodeJS</strong>.
-                    </p>
-                    <p>
-                      We make web application, ecommerce website, real-time data application and Chrome extension.
+                      Started in 2015, JSLancer is a software development consultant from Vietnam that helps our clients 
+                      build the advanced user interface and data visualization products.
                     </p>
                     <p className="description">
-                      Each member in our company has over 5 years experience with
-                      web development. We have strong bond and work together to finish project.
+                      Our close-knit team consists of experienced engineers who can tackle complex challenges and bring the best solution for your product, 
+                      allowing you to focus on strategy, business development, and growing your user base with no worries.
                     </p>
                     <p className="description">
-                      Besides outsourcing, we also contributing to software and
-                      open-source community by creating{" "}
-                      <strong>
-                        <a href="https://github.com/jslancerteam">
-                          open-source softwares
-                        </a>
-                      </strong>
-                    </p>
-
-                    <p className="description">
-                      In the last 3 years, our company have completed over <strong>15 projects</strong> for our clients and contribute a significant amount of works to their sucess.
+                      We have been working with clients fromthe US, Singapore, Australia and deliver technical solutions 
+                      that meet their business goals and budget.
                     </p>
                     <br />
                     <p className="description">
                       <h4>Our technology stacks:</h4>
-                      <strong>Frontend:</strong>
                       <ul>
-                        <li>ReactJS</li>
-                        <li>redux, redux-sage, mobX</li>
-                        <li>styled-components</li>
-                        <li>react-router-dom</li>
-                        <li>graphql</li>
-                        <li>socket.io</li>
-                        <li>Chrome Extension API</li>
-                      </ul>
-                      <strong>Backend:</strong>
-                      <ul>
-                        <li>ExpressJS</li>
-                        <li>Knex, Waterline, Mongoose</li>
-                        <li>Firebase</li>
-                        <li>Mongodb, MySql, PostgresQL</li>
-                        <li>GraphQL</li>
-                        <li>Stripe, Paypal</li>
-                        <li>Docker</li>
+                        <li>Advance UI with ReactJS, Redux, GraphQL, styled-components, SCSS</li>
+                        <li>Real-time application with Socket.</li>
+                        <li>Build data visualization applications with D3JS</li>
+                        <li>Write unit test and E2E to verify the functionality of an individual part or the whole of an application</li>
                       </ul>
                     </p>
-
                   </div>
                 </div>
               </div>

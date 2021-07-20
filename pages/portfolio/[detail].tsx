@@ -41,7 +41,7 @@ const PortfolioDetailPage: NextPage = () => {
           </div>
           {/* End Breadcrump Area */}
           {/* Start Portfolio Details */}
-          <div className="rn-portfolio-details ptb--120 bg_color--1">
+          <div className="rn-portfolio-details ptb--120 bg_color--8">
             <div className="container">
               <div className="row">
                 <div className="col-lg-12">

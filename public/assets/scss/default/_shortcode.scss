@@ -72,11 +72,11 @@ font-family: 'Poppins', sans-serif;
 }
 
 .theme-gradient {
-    background: rgb(248,31,1);
-    background: -moz-linear-gradient(145deg,  rgba(248,31,1,1) 0%, rgba(238,7,110,1) 100%);
-    background: -webkit-linear-gradient(145deg,  rgba(248,31,1,1) 0%,rgba(238,7,110,1) 100%);
-    background: linear-gradient(145deg,  rgba(248,31,1,1) 0%,rgba(238,7,110,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f81f01', endColorstr='#ee076e',GradientType=1 );
+    background :#00aeef;
+    background: -moz-linear-gradient(145deg, #00aeef 0%, #00aeef 100%);
+    background: -webkit-linear-gradient(145deg, #00aeef 0%,#00aeef 100%);
+    background: linear-gradient(145deg, #00aeef 0%,#00aeef 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00aeef', endColorstr='#ee076e',GradientType=1 );
 }
 
 .rn-text-white {
@@ -97,7 +97,8 @@ font-family: 'Poppins', sans-serif;
 '4'#1a1b1f,
 '5'#f8f9fc,
 '6'#000000,
-'7'#101010
+'7'#101010,
+'8'#f0f0f0f0,
 );
 
 

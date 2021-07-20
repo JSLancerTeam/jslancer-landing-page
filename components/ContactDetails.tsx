@@ -42,7 +42,7 @@ const ContactDetails = () => (
         </div>
         <div className="inner">
           <h4 className="title">Location</h4>
-          <p>189 Hoang Hoa Tham, Tan Binh district, HCMC, Vietnam</p>
+          <p>171A Hoang Hoa Tham, Tan Binh district, HCMC, Vietnam</p>
         </div>
       </div>
     </div>

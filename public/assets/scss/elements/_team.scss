@@ -189,20 +189,14 @@
 /*-------------------
     Team Static
 ---------------------*/
-@media screen and (max-width: 500px) {
-    .team-static .thumbnail img {
-        height: auto !important;
-    }
-
-    .rn-team-area .col-sm-6 {
-        width: 50% !important;
-    }
-}
 
 .team-static{
     margin-bottom: 20px;
+
     .thumbnail img {
-        height: 466px;
+        height: 400px;
+        width: 315px;
+        object-fit: cover;
     }
 
     .inner {
@@ -227,11 +221,15 @@
     }
 }
 
+@media screen and (max-width: 500px) {
+    .team-static .thumbnail img {
+        height: auto !important;
+    }
 
-
-
-
-
+    .rn-team-area .col-sm-6 {
+        width: 50% !important;
+    }
+}
 
 /*----------------------
     Social Share

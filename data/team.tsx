@@ -16,7 +16,7 @@ export interface IData {
 
 const data = [
   {
-    images: 'david-tran-new.png',
+    images: 'david.png',
     title: 'David Tran',
     href: '#',
     designation: 'Lead developer',
@@ -32,19 +32,19 @@ const data = [
     ]
   },
   {
-    images: 'leo-phan-new.png',
-    title: 'Leo Phan',
+    images: 'kiet-nguyen.png',
+    title: 'Kiet Nguyen',
     href: '#',
-    designation: 'Full-stack developer',
+    designation: 'Business Manager',
     socialNetwork: [
       {
         icon: <FaGithub />,
-        url: 'https://github.com/nhuthuy212507'
+        url: 'https://github.com/davidtran'
       }
     ]
   },
   {
-    images: 'tony-nguyen-new.png',
+    images: 'tony.png',
     title: 'Tony Nguyen',
     href: '#',
     designation: 'Frontend Developer',
@@ -56,7 +56,19 @@ const data = [
     ]
   },
   {
-    images: 'tuan-anh-new.png',
+    images: 'leo-phan.png',
+    title: 'Leo Phan',
+    href: '#',
+    designation: 'Full-stack developer',
+    socialNetwork: [
+      {
+        icon: <FaGithub />,
+        url: 'https://github.com/leophan07'
+      }
+    ]
+  },
+  {
+    images: 'clement.png',
     title: 'Clement Le',
     href: '#',
     designation: 'Full-stack Developer',
@@ -67,18 +79,6 @@ const data = [
       }
     ]
   },
-  {
-    images: 'viet-anh-new.png',
-    title: 'Felix Le',
-    href: '#',
-    designation: 'Front-end Developer',
-    socialNetwork: [
-      {
-        icon: <FaGithub />,
-        url: 'https://github.com/vietanhcoder'
-      }
-    ]
-  }
 ];
 
 export default data;

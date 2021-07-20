@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 
 const ClientImg = styled.img`
-  height: ${(props) => (props.height ? props.height : '60px')};
   filter: grayscale(100%);
   filter: gray;
   opacity: 0.8;
@@ -17,6 +16,7 @@ const ClientImg = styled.img`
 `;
 const ClientList = styled.div`
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
   height: min-content;
   width: 100%;
@@ -93,19 +93,20 @@ const ImgWrapper = styled.div`
 
 const ClientItems = [
   {
-    image: 'assets/images/client/c_i_studios.png',
+    image: 'assets/images/client/cistudios.png',
     name: 'C&I Studios',
   }, {
-    image: 'assets/images/client/ioradLogo.png',
+    image: 'assets/images/client/iorad.png',
     name: 'Iorad',
   }, {
-    image: 'assets/images/client/taduLogo.png',
-    name: 'Tadu.vn',
-    height: 'auto',
+    image: 'assets/images/client/nugit.png',
+    name: 'Nugit',
   }, {
-    image: 'assets/images/client/efexcon_Logo_positiv.png',
-    name: 'Exfexcon',
-    height: 'auto',
+    image: 'assets/images/client/fairprice.png',
+    name: 'Fairprice.com.sg',
+  }, {
+    image: 'assets/images/client/fivegrid.png',
+    name: 'Fivegird',
   },
 ];
 
@@ -131,14 +132,13 @@ const Clients = () => {
               <ClientList>
                 {ClientItems.map((item) => (
                   <ClientItemWrapper
-                    className='col-lg-3 col-6 col-md-4 col-sm-6 justify-content-center d-flex align-items-center flex-wrap'
+                    className='col-lg-2 col-6 col-md-4 col-sm-6 justify-content-center d-flex align-items-center flex-wrap'
                     key={item.name}
                   >
                     <ClientItem>
                       <ImgWrapper>
                         <ClientImg
                           src={item.image}
-                          height={item.height || ''}
                           alt={item.name}
                         />
                       </ImgWrapper>

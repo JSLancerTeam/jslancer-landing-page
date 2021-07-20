@@ -357,7 +357,7 @@ p:last-child {
 
 
 %gradientDefault {
-    background: linear-gradient(to right, #f81f01 50%, #ee076e 50%);
+    background: linear-gradient(to right, #00aeef 50%, #00aeef 50%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -368,19 +368,19 @@ p:last-child {
 }
 
 .theme-gradient {
-    background: linear-gradient(-259deg, #f81f01 0, #ee076e 100%);
+    background: linear-gradient(-259deg, #00aeef 0, #00aeef 100%);
 }
 .bg-theme-gradient {
-    background: #f81f01;
-    background: linear-gradient(145deg, #f81f01 0%, #ee076e 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f81f01', endColorstr='#ee076e',GradientType=1 );
+    background: #00aeef;
+    background: linear-gradient(145deg, #00aeef 0%, #00aeef 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00aeef', endColorstr='#ee076e',GradientType=1 );
 }
 
 
 
 
 %theme-gradient {
-    background: linear-gradient(-259deg, #f81f01 0, #ee076e 100%);
+    background: linear-gradient(-259deg, #00aeef 0, #00aeef 100%);
 }
 
 

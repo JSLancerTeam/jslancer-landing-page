@@ -19,32 +19,17 @@ const About: React.FunctionComponent = () => (
             <div className="section-title">
               <h2 className="title">About us</h2>
               <p className="description">
-                We are a web and mobile development company from Vietnam. We focus
-                on develop rich interactive applications with React and NodeJS technologies
+                Started in 2015, JSLancer is a software development consultant from Vietnam that helps our clients 
+                build the advanced user interface and data visualization products.
               </p>
-            </div>
-            <div className="row mt--30 mt_sm--10">
-              <div className="col-lg-6 col-md-12 col-sm-12 col-12">
-                <div className="about-us-list">
-                  <h3 className="title">High technical skills</h3>
-                  <p>
-                    Our company consists of senior developers who have vast
-                    experience with React and React Native. Our technical skill
-                    allow us to tackle difficult challenges and bring the
-                    best solution for your product.
-                  </p>
-                </div>
-              </div>
-              <div className="col-lg-6 col-md-12 col-sm-12 col-12">
-                <div className="about-us-list">
-                  <h3 className="title">Customer first</h3>
-                  <p>
-                    In order to be successful, we need to understand customer's
-                    vision and goal. So we take a lot of time to understand our
-                    customer and their vision.
-                  </p>
-                </div>
-              </div>
+              <p className="description">
+                Our close-knit team consists of experienced engineers who can tackle complex challenges and bring the best solution for your product, 
+                allowing you to focus on strategy, business development, and growing your user base with no worries.
+              </p>
+              <p className="description">
+                We have been working with clients fromthe US, Singapore, Australia and deliver technical solutions 
+                that meet their business goals and budget.
+              </p>
             </div>
           </div>
         </div>

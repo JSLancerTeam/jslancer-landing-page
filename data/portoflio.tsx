@@ -47,44 +47,65 @@ const data = [
         <li>Mysql</li>
       </ul>
     ),
-    numberImage: 2
-  },  
+    numberImage: 3
+  }, 
   {
-    image: 'pullr',
-    href: 'pullr',
-    title: 'Pullr',
-    subtitle: 'Pullr is a fund-raising platform for video game streamer.',
+    image: 'nugit',
+    href: 'nugit',
+    title: 'Nugit',
+    subtitle: 'Nugit.co - Singapor',
     description: (
       <>
         <p>
-          Started in 2014, Pullr is a fund-raising platform for video game
-          streamer. Using Pullr, streamer can create various kind of widgets and
-          embed into their stream. Viewer can interact with these widgets and
-          give donation for streamer
+          Nugit is a data storytelling platform that transforms your business data into graphs, pie, and line charts and helps you understand your data better.
         </p>
         <p>
-          More than that, streamer can create campaign to raise fund for
-          charity.
-        </p>
+          <strong>What we have done:</strong>
+          <br />
+          JSLancer provides frontend development consultant service for Nugit. One developer of our team joins Nugit as a full-time developer.   
+        </p>        
       </>
     ),
     aboutClient: (
       <ul>
-        <li>Company: Pullr Inc</li>
-        <li>Owner: Noah Ridley</li>
-        <li>Location: United State</li>
+        <li>Company: Nugit</li>
+        <li>Owner: Nugit.co - Singapor</li>        
       </ul>
     ),
     technology: (
       <ul>
-        <li>AngularJS</li>
-        <li>LESS</li>
-        <li>Gulp</li>
-        <li>Laravel</li>
+        <li>React</li>
+        <li>NodeJS</li>
+        <li>ExpressJS</li>
+      </ul>
+    ),
+    numberImage: 2
+  }, 
+  {
+    image: 'fivegrid',
+    href: 'fivegrid',
+    title: 'Fivegrid',
+    subtitle: 'Fivegrid.tech - Australia',
+    description: (
+      <>
+        <p>
+          Fivegrid is a SaaS product that simplifies digital marketing campaign activation and management across multiple channels including Search, Social and Native Display.
+        </p>
+        <p>
+          <strong>What we have done:</strong>
+          <br />
+          JSLancer provides frontend development consultant service for Fivegrid.
+        </p>        
+      </>
+    ),
+    aboutClient: (
+      <ul>
+        <li>Company: Fivegrid.tech</li>
+        <li>Owner: Fivegrid.tech - Australia</li>        
       </ul>
     ),
     numberImage: 3
-  },
+  }, 
   {
     image: 'crystal-dashboard',
     href: 'react-bootstrap-admin-dashboard',
@@ -121,63 +142,6 @@ const data = [
     numberImage: 2
   },
   {
-    image: 'the-indie',
-    href: 'the-indie',
-    title: 'The Indie',
-    subtitle: 'The Indie is a music platform for indie music artist',
-    description: (
-      <p>
-        It helps indie music artist publish and promote their music to the
-        world. This platform consists a music website and a mobile app to
-        download and listen music.
-      </p>
-    ),
-    aboutClient: (
-      <ul>
-        <li>Client name: Damon Cleveland</li>
-        <li>Location: United State</li>
-      </ul>
-    ),
-    technology: (
-      <ul>
-        <li>Angular 2</li>
-        <li>Webpack</li>
-        <li>SASS</li>
-      </ul>
-    ),
-    numberImage: 2
-  },
-  {
-    image: 'oneclicktrips',
-    href: '1clicktrips',
-    title: '1ClickTrips',
-    subtitle: '1ClickTrips is tool to search, plan and manage your trips.',
-    description: (
-      <p>
-        1Click is a trip search engine. User just needs toenter your appointment
-        data and get the best itinerary options including car, public transport,
-        flight and accommodation in seconds.
-      </p>
-    ),
-    aboutClient: (
-      <ul>
-        <li>Client name: Efexcon</li>
-        <li>Location: Zug, Switzerland</li>
-      </ul>
-    ),
-    technology: (
-      <ul>
-        <li>AngularJS</li>
-        <li>Webpack</li>
-        <li>Typescript</li>
-        <li>ExpressJS</li>
-        <li>MongoDB</li>
-        <li>Passport</li>
-      </ul>
-    ),
-    numberImage: 3
-  },
-  {
     image: 'usonia',
     href: 'usonia-labs-cloud-manager',
     title: 'Usonia Labs Cloud Manager',
@@ -198,30 +162,6 @@ const data = [
     ),
     numberImage: 3
   },
-  {
-    image: 'vtsale',
-    href: 'vtsale',
-    title: 'VT Sale',
-    subtitle: 'POS dashboard',
-    description: (
-      <>
-        <p>
-          VTSale is a web application to mananage sale, import, export and
-          invoice for small business
-        </p>
-      </>
-    ),
-    technology: (
-      <ul>
-        <li>ReactJS</li>
-        <li>Webpack</li>
-        <li>Typescript</li>
-        <li>ExpressJS</li>
-        <li>MongoDB</li>
-      </ul>
-    ),
-    numberImage: 4,
-  }
 ];
 
 export default data;

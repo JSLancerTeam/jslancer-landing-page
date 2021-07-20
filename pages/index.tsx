@@ -24,7 +24,7 @@ const IndexPage: NextPage = () => {
         <About />
       </div>
 
-      <div className='portfolio-area ptb--120 bg_color--1'>
+      <div className='portfolio-area bg_color--1'>
         <div className='portfolio-sacousel-inner mb--55'>
           <TechnologyStack />
         </div>

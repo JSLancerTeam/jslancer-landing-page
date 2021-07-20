@@ -673,8 +673,8 @@ Slider Default
                 display: none !important;
             }
             &:hover{
-                background: #f9004d;
-                border-color: #f9004d;
+                background: #00aeef;
+                border-color: #00aeef;
             }
             &::before {
                 line-height: 1;
@@ -820,12 +820,12 @@ Slider Default
     left: 0;
     bottom: -30px;
     content: "";
-    background-color: #f81f01;
+    background-color: #00aeef;
     z-index: -1;
     margin: auto;
     right: 0;
     border-radius: 20%;
-    background-image: linear-gradient(145deg, #f81f01 0%, #ee076e 100%);
+    background-image: linear-gradient(145deg, #00aeef 0%,#00aeef 100%);
     filter: blur(30px);
 }
 

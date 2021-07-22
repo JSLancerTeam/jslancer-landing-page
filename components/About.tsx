@@ -19,12 +19,12 @@ const About: React.FunctionComponent = () => (
             <div className="section-title">
               <h2 className="title">About us</h2>
               <p className="description">
-                Started in 2015, JSLancer is a software development consultant from Vietnam that helps our clients 
-                build the advanced user interface and data visualization products.
+                JSLancer, a software development consultant from Vietnam, 
+                was founded in 2015 to assist our clients in developing superior user interface and data visualization solutions.
               </p>
               <p className="description">
-                Our close-knit team consists of experienced engineers who can tackle complex challenges and bring the best solution for your product, 
-                allowing you to focus on strategy, business development, and growing your user base with no worries.
+                Our close-knit team consists of experienced engineers who can tackle complicated challenges and deliver the best solution for your product, 
+                allowing you to focus on strategy, company development, and user growth without worry.
               </p>
               <p className="description">
                 We have been working with clients fromthe US, Singapore, Australia and deliver technical solutions 

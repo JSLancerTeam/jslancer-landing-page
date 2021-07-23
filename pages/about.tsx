@@ -29,24 +29,32 @@ const AboutPage: NextPage = () => {
                     <h2 className="title">About us</h2>
                     <p className="description">
                       JSLancer, a software development consultant from Vietnam, 
-                      was founded in 2015 to assist our clients in developing superior user interface and data visualization solutions.
+                      was founded in 2015 toserve our clients in developing advanced user interface and data visualization solutions.
                     </p>
                     <p className="description">
-                      Our close-knit team consists of experienced engineers who can tackle complicated challenges and deliver the best solution for your product, 
-                      allowing you to focus on strategy, company development, and user growth without worry.
-                    </p>
-                    <p className="description">
-                      We have been working with clients fromthe US, Singapore, Australia and deliver technical solutions 
-                      that meet their business goals and budget.
+                      Our close-knit team consists of experienced engineers who can tackle complicated challenges and 
+                      deliver quality solution for your product, allowing you to focus on strategy, business growth, and user engagement without worry.
                     </p>
                     <br />
                     <p className="description">
                       <h4>Our technology stacks:</h4>
                       <ul>
                         <li>Advance UI with ReactJS, Redux, GraphQL, styled-components, SCSS</li>
-                        <li>Real-time application with Socket.</li>
+                        <li>Real-time application with Socket</li>
                         <li>Build data visualization applications with D3JS</li>
                         <li>Write unit test and E2E to verify the functionality of an individual part or the whole of an application</li>
+                        <li>
+                          Since 2015, we've worked with a large number of customers from the United States, England, Switzerland, and Australia. 
+                          Our mainstack is React, React Native, NodeJS and MongoDB. 
+                          These libraries and frameworks are built on topof Javascript. It's the reason why we call ourselves JSLancer
+                        </li>
+                        <li>
+                          This is the total amount of projects we've finished. 
+                          We collaborate closely with you to fully comprehend your requirements and give the best possible solution
+                        </li>
+                        <li>
+                          This is the number of open-source projects that we have contributed to
+                        </li>
                       </ul>
                     </p>
                   </div>

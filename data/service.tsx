@@ -11,11 +11,11 @@ export interface IData {
 const data = [
   {
     icon: <FiUsers />,
-    title: 'Web and Mobile application development',
+    title: 'Development of web and mobile applications',
     href: 'web-and-mobile',
     description: (
       <p>
-        We transform your idea and business requirements into a real product.
+        We turn your concept and business needs into a final website and mobile app.
       </p>
     )
 
@@ -26,17 +26,17 @@ const data = [
     href: 'mvp-development',
     description: (
       <p>
-        We help you implement an MVP to gain understanding about your customers’ interest in a very short time.
+        We assist you in creating an MVP to get a quick insight of your customers' needs.
       </p>
     )
   },
   {
     icon: <FiPhone />,
-    title: 'Application re-engineering',
+    title: 'Re-engineering of application',
     href: 'application-re-engineering',
     description: (
       <p>
-        Our application re-engineering amends performance of existing web solutions to make them more business efficient.
+        Our application re-engineering improves the efficiency of existing web solution by enhancing its performance.
       </p>
     )
 

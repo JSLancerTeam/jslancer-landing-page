@@ -17,11 +17,11 @@ const data = [
     image: 'iorad',
     href: 'iorad',
     title: 'Iorad',
-    subtitle: 'Tutorial builder',
+    subtitle: 'Tutorial Builder',
     description: (
       <>
         <p>
-          Iorad is a tutorial builder tool which is using by many companies to create training tutorial videos for their employees and customers. Their customers include Zappy, Zoom, Minted, WeWork.    
+          Iorad is a tutorial builder tool which is being used by many companies to create training tutorial videos for their employees and customers. Zappy, Zoom, Minted, and WeWork are some of their clients.
         </p>
         <p>
           <strong>What we have done:</strong>
@@ -53,23 +53,23 @@ const data = [
     image: 'nugit',
     href: 'nugit',
     title: 'Nugit',
-    subtitle: 'Nugit.co - Singapor',
+    subtitle: 'Nugit.co - Singapore',
     description: (
       <>
         <p>
-          Nugit is a data storytelling platform that transforms your business data into graphs, pie, and line charts and helps you understand your data better.
+          Nugit is a data storytelling software that lets you better understand your data by transforming it into graphs, pie charts, and line charts.
         </p>
         <p>
           <strong>What we have done:</strong>
           <br />
-          JSLancer provides frontend development consultant service for Nugit. One developer of our team joins Nugit as a full-time developer.   
+          JSLancer works with Nugit as a frontend development consultant. Nugit hires one of our team members as a full-time developer.
         </p>        
       </>
     ),
     aboutClient: (
       <ul>
         <li>Company: Nugit</li>
-        <li>Owner: Nugit.co - Singapor</li>        
+        <li>Owner: Nugit.co - Singapore</li>        
       </ul>
     ),
     technology: (
@@ -89,12 +89,12 @@ const data = [
     description: (
       <>
         <p>
-          Fivegrid is a SaaS product that simplifies digital marketing campaign activation and management across multiple channels including Search, Social and Native Display.
+          Fivegrid is a software-as-a-service platform that streamlines the activation and management of digital marketing campaigns across many channels, including search, social, and native display.
         </p>
         <p>
           <strong>What we have done:</strong>
           <br />
-          JSLancer provides frontend development consultant service for Fivegrid.
+            For Fivegrid, JSLancer provides frontend development consulting services.
         </p>        
       </>
     ),
@@ -115,12 +115,10 @@ const data = [
     description: (
       <>
         <p>
-          Crystal dashboard is a minimal, beautiful, multi-purpose ReactJS that
-          you can easily to modify to use any admin dashboard project. It's
-          complete free.
+          Crystal dashboard is a simple, elegant, and multi-purpose ReactJS dashboard that you can quickly customize for any admin dashboard project. It's completely free.
         </p>
         <p>
-          You can download at here:{' '}
+          The crystal dashboard can be downloaded from:{' '}
           <a
             href="https://github.com/JSLancerTeam/crystal-dashboard"
             target="_blank"
@@ -146,17 +144,14 @@ const data = [
     href: 'usonia-labs-cloud-manager',
     title: 'Usonia Labs Cloud Manager',
     subtitle:
-      'Usonia Labs is an online tool which helps user easily to manage files in their system.',
+      'Usonia Labs is an online platform that allows users to manage their files more easily.',
     description: (
       <>
         <p>
-          This application is packed with a terminal and text editor so user can
-          edit their files right in the browser.
+          This application includes a terminal and a text editor, allowing users to edit files directly in the browser.
         </p>
         <p>
-          This project also has Cloud Upload feature which is very helpful to
-          upload or download files from Google Drive, Dropbox, iCloud and
-          OneDrive.
+          This project also has Cloud Upload feature which is very helpful to upload or download files from Google Drive, Dropbox, iCloud and OneDrive.
         </p>
       </>
     ),

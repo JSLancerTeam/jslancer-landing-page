@@ -72,6 +72,19 @@ const Layout: React.FunctionComponent<Props> = ({
   ga('send', 'pageview');`
         }}
       ></script>
+      <!-- Hotjar Tracking Code for jslancer.com -->
+      <script>
+        (function(h,o,t,j,a,r){
+          h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+        h._hjSettings={hjid:2544397,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+      </script>
+      <!-- Hotjar Tracking Code for jslancer.com -->
+    <script src="https://my.hellobar.com/a0b60c0857a8217ad04babad778a71375bd4a77e.js" type="text/javascript" charset="utf-8" async="async"> </script>
     </Head>
     <Header />
     {children}

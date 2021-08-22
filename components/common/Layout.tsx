@@ -72,48 +72,6 @@ const Layout: React.FunctionComponent<Props> = ({
   ga('send', 'pageview');`
         }}
       ></script>
-      <script
-        dangerouslySetInnerHTML={{
-          __html: ` (function(h,o,t,j,a,r){
-          h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
-        h._hjSettings={hjid:2544397,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');`,
-        }}
-      ></script>
-      <script
-        src="https://my.hellobar.com/a0b60c0857a8217ad04babad778a71375bd4a77e.js"
-        type="text/javascript"
-        charSet="utf-8"
-        async
-      >
-        {" "}
-      </script>
-
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `
-          var chatbox = document.getElementById('fb-customer-chat');
-          chatbox.setAttribute("page_id", "931120433635884");
-          chatbox.setAttribute("attribution", "biz_inbox");
-            window.fbAsyncInit = function() {
-              FB.init({
-                xfbml            : true,
-                version          : 'v11.0'
-              });
-            };
-            (function(d, s, id) {
-              var js, fjs = d.getElementsByTagName(s)[0];
-              if (d.getElementById(id)) return;
-              js = d.createElement(s); js.id = id;
-              js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-              fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));`,
-        }}
-      ></script>
     </Head>
     <Header />
     {children}
